@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #313232;
+    color: #DDE6ED;
+}
+header nav{
+    background-color: #111212;
+    padding: 20px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+header nav h1{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+header nav form{
+   display: flex;
+   justify-content: center;
+}
+form input[type="text"]{
+    flex-grow: 1;
+    margin-right: 8px;
+}
+form input[type="text"],button[type="submit"]{
+    border: none;
+    margin-right: 8px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+}
+form button[type="submit"]{
+    background-color: rgb(176, 107, 9);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+form button[type="submit"]:hover,
+.recipe button:hover,
+.recipe-closeBtn{
+    background-color:rgb(121, 74, 9) ;
+}
+
+/* main sec/script*/
+.recipe-container{
+    text-align: center;
+    /*margin-top: 20px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 40px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px; 
+    place-items: center;
+}
+
+.recipe{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(78,73,73,0.1), -5px -5px 10px rgba(34, 34, 34,0.5);
+    cursor: pointer;
+    max-width: 350px;
+    /* When button come ots hovver  */
+    transition: transform 0.3s ease-in-out;
+}
+  /* When button come ots hovver  */
+.recipe:hover{
+    transform: scale(1.05);
+}
+.recipe img{
+    height: 300px;
+}
+.recipe h3{
+    font-size: 24px;
+}
+.recipe p{
+    font-size: 20px;
+    color: #4a4a4a;
+    margin: 5px 0;
+}
+.recipe span{
+    font-weight: 600;
+}
+.recipe button{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin: 18px auto;
+    background-color: rgb(176, 107, 9);
+    color: white;
+}
+/* Recipe Details */
+.recipe-details{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: #9b8989 ;
+    border-radius: 12px;
+    width: 40%;
+    height: 60%;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    overflow-y: scroll;
+}
+.recipe-details-content{
+padding: 30px;
+}
+/* Adding Scrollber in Recipe Details*/
+.recipe-details::-webkit-scrollbar{
+width: 7px;
+}
+.recipe-details::-webkit-scrollbar-thumb{
+background: #c0bebc;
+border-radius: 16px;
+-webkit-border-radius: 16px;
+}
+
+body::-webkit-scrollbar{
+    width: 13px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #c0bebc;
+    border-radius: 4px;
+    -webkit-border-radius: 6px;
+}
+
+.recipeName{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.ingredientsList li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.recipeInstruction p{ 
+    line-height: 30px;
+    white-space: pre-line;
+}
+.recipeName, .recipeInstruction, .ingredientsList{
+    margin-bottom: 20px;
+}
+.recipe-closeBtn{
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+    }
+    header nav form {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
