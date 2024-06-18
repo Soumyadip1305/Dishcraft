@@ -1,7 +1,6 @@
 # Dish-Craft: Your Ultimate Recipe Companion
 
-![Untitled design (1)](https://github.com/Soumyadip1305/Dishcraft/assets/115612619/01a9d895-0a0f-4249-90f0-4f8f2a566587)
-
+![Untitled design (4)](https://github.com/Soumyadip1305/Dishcraft/assets/115612619/63ac79c0-7d73-4fc8-86e0-91db12f62693)
 
 
 
