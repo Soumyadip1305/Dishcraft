@@ -20,5 +20,32 @@ Dish-Craft is an innovative web application designed to simplify recipe discover
 
 To get started with Dish-Craft, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/Soumyadip1305/Dishcraft.git
+
+2. Navigate to the project directory: cd dish-craft
+   
+3. Open `index.html` in your web browser to launch the application.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute to Dish-Craft:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/new-feature`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
