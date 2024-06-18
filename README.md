@@ -22,7 +22,7 @@ To get started with Dish-Craft, follow these steps:
 
 1. Clone the repository: git clone https://github.com/Soumyadip1305/Dishcraft.git
 
-2. Navigate to the project directory: cd dish-craft
+2. Navigate to the project directory: cd Dishcraft
    
 3. Open `index.html` in your web browser to launch the application.
 
