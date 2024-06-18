@@ -1,6 +1,7 @@
 # Dish-Craft: Your Ultimate Recipe Companion
 
-![Dish-Craft Logo](link-to-your-logo.png)
+(https://github.com/Soumyadip1305/Dishcraft/assets/115612619/605e881b-00df-4bd8-977d-79c64395cb57)
+
 
 Dish-Craft is an innovative web application designed to simplify recipe discovery and enhance cooking experiences. With Dish-Craft, users can effortlessly find curated recipes from around the world by simply typing in the dish name. Powered by TheMealDB.com APIs, Dish-Craft ensures a diverse selection of mouthwatering recipes tailored to every user's taste.
 
